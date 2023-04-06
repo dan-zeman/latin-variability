@@ -1,0 +1,4 @@
+- Compare individual train/dev/test sets of all treebanks using klcpos3 (UD tools/klcpos3.pl TGTDISTRIB SRCDISTRIB, where a distribution file has tab-separated trigram, count, relcount).
+- Compare numbers of OOV words.
+- Compare nonprojectivity (and possibly other metrics, such as planarity).
+- Compute LAS without punctuation for all treebanks. (This would make PROIEL more comparable with the others. But the results would not be comparable with other published results.)

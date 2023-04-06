@@ -1,0 +1,141 @@
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-Perseus/la_perseus-ud-train.conllu > la_perseus-ud-train-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-Perseus/la_perseus-ud-test.conllu > la_perseus-ud-test-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-PROIEL/la_proiel-ud-train.conllu > la_proiel-ud-train-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-PROIEL/la_proiel-ud-dev.conllu > la_proiel-ud-dev-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-PROIEL/la_proiel-ud-test.conllu > la_proiel-ud-test-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-UDante/la_udante-ud-train.conllu > la_udante-ud-train-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-UDante/la_udante-ud-dev.conllu > la_udante-ud-dev-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-UDante/la_udante-ud-test.conllu > la_udante-ud-test-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-ITTB/la_ittb-ud-train.conllu > la_ittb-ud-train-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-ITTB/la_ittb-ud-dev.conllu > la_ittb-ud-dev-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-ITTB/la_ittb-ud-test.conllu > la_ittb-ud-test-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-LLCT/la_llct-ud-train.conllu > la_llct-ud-train-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-LLCT/la_llct-ud-dev.conllu > la_llct-ud-dev-upos3.txt
+perl conllu_upos_trigrams.pl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/UD_Latin-LLCT/la_llct-ud-test.conllu > la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-train-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_perseus-ud-test-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-train-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_proiel-ud-test-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-train-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_udante-ud-test-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-train-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_ittb-ud-test-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-train-upos3.txt la_llct-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_perseus-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_perseus-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_proiel-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_proiel-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_udante-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_udante-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_ittb-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_ittb-ud-test-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_llct-ud-train-upos3.txt
+perl C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies/tools/klcpos3.pl la_llct-ud-test-upos3.txt la_llct-ud-test-upos3.txt
+
+la_perseus-ud-test-upos3.txt | la_proiel-ud-train-upos3.txt	3.27003255087493
+la_llct-ud-test-upos3.txt | la_proiel-ud-train-upos3.txt	3.07789488796016
+la_ittb-ud-test-upos3.txt | la_proiel-ud-train-upos3.txt	2.99896939952696
+la_udante-ud-test-upos3.txt | la_proiel-ud-train-upos3.txt	2.81417966435962
+la_proiel-ud-test-upos3.txt | la_llct-ud-train-upos3.txt	2.15299031542772
+la_llct-ud-test-upos3.txt | la_perseus-ud-train-upos3.txt	2.03357801209739
+la_proiel-ud-test-upos3.txt | la_ittb-ud-train-upos3.txt	1.93354414665512
+la_llct-ud-test-upos3.txt | la_ittb-ud-train-upos3.txt	1.60906859824905
+la_perseus-ud-test-upos3.txt | la_llct-ud-train-upos3.txt	1.52282680033055
+la_proiel-ud-test-upos3.txt | la_udante-ud-train-upos3.txt	1.35087423292056
+la_udante-ud-test-upos3.txt | la_llct-ud-train-upos3.txt	1.31371906762843
+la_ittb-ud-test-upos3.txt | la_llct-ud-train-upos3.txt	1.27408551601556
+la_llct-ud-test-upos3.txt | la_udante-ud-train-upos3.txt	1.22296763808245
+la_proiel-ud-test-upos3.txt | la_perseus-ud-train-upos3.txt	1.20936250702143
+la_ittb-ud-test-upos3.txt | la_perseus-ud-train-upos3.txt	1.02807169215561
+la_udante-ud-test-upos3.txt | la_perseus-ud-train-upos3.txt	1.00949800533792
+la_perseus-ud-test-upos3.txt | la_ittb-ud-train-upos3.txt	0.858844230402488
+la_perseus-ud-test-upos3.txt | la_udante-ud-train-upos3.txt	0.809865994324728
+la_udante-ud-test-upos3.txt | la_ittb-ud-train-upos3.txt	0.691813896188058
+la_udante-ud-test-upos3.txt | la_udante-ud-train-upos3.txt	0.392307846332866
+la_ittb-ud-test-upos3.txt | la_udante-ud-train-upos3.txt	0.314677154381156
+
+la_llct-ud-test-upos3.txt | la_llct-ud-train-upos3.txt	0.186864114584742
+la_ittb-ud-test-upos3.txt | la_ittb-ud-train-upos3.txt	0.127462913341221
+la_perseus-ud-test-upos3.txt | la_perseus-ud-train-upos3.txt	0.120216752254145
+la_proiel-ud-test-upos3.txt | la_proiel-ud-train-upos3.txt	0.0958938666578162
